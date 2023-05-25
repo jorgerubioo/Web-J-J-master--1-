@@ -238,16 +238,17 @@ body.dark .search-field input{
 body.dark .search-field i{
     color: var(--text-color);
 }
-
-@media (max-width: 790px) {
+.logoempresa{
+    width: 200px;
+}
+@media (max-width: 600px) {
     nav .nav-bar .sidebarOpen{
         display: block;
     }
-
     .menu{
         position: fixed;
-        height: 100%;
-        width: 320px;
+        height: 60%;
+        width: 600px;
         left: -100%;
         top: 0;
         padding: 20px;
