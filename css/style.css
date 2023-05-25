@@ -37,7 +37,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 150px;
     width: 100%;
     background-color: var(--nav-color);
     z-index: 100;
@@ -239,7 +239,8 @@ body.dark .search-field i{
     color: var(--text-color);
 }
 .logoempresa{
-    width: 200px;
+    width: 300px;
+    padding-top: 30px;
 }
 @media (max-width: 600px) {
     nav .nav-bar .sidebarOpen{
@@ -247,7 +248,7 @@ body.dark .search-field i{
     }
     .menu{
         position: fixed;
-        height: 60%;
+        height: 100%;
         width: 600px;
         left: -100%;
         top: 0;
