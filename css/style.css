@@ -260,6 +260,12 @@ body.dark .search-field i{
         left: -0%;
     }
 
+    .logo.navLogo img {
+        width: 20px !important;
+        height: 20px !important;
+        transform: scale(0.5) !important;
+      }
+
     nav.active .nav-bar .navLogo a{
         opacity: 0;
         transition: all 0.3s ease;
